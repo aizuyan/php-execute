@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset=utf-8 />
+	<title>PHP执行</title>
+	<link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./src/css/index.css">
+</head>
+<body>
+	<div id="php-execute">
+		<div class="panel panel-default">
+	  		<div class="panel-heading">
+	  			<div class="inline margin-right-20">PHP版本：</div>
+	  			<div class="inline margin-right-20">
+		  			<select id="versions">
+		  			</select>
+	  			</div>
+	  			<div class="inline margin-right-20">
+	  				<button class="btn btn-success btn-xs" id="run">执行</button>
+	  			</div>
+	  		</div>
+	  		<div class="panel-body">
+	  			<div id="code-editor" class="editor"></div>
+	  			<hr/>
+	  			<div id="code-result">
+	  			</div>
+	  		</div>
+		</div>		
+	</div>
+  	<script type="text/javascript" src="./dist/bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+#php-execute {
+  padding: 20px;
+}
+#php-execute .panel .panel-heading .inline {
+  display: inline-block;
+}
+#php-execute .panel .panel-heading .margin-right-20 {
+  margin-right: 20px;
+}
+#php-execute .panel .panel-body {
+  padding: 0;
+}
+#php-execute #code-editor {
+  width: 100%;
+  height: 500px;
+}
